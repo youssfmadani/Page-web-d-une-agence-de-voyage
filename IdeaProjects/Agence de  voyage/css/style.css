@@ -10,6 +10,11 @@ body {
   color: #1E293B;
   line-height: 1.6;
 }
+header ul {
+  margin-right: 250px;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -44,6 +49,7 @@ header ul li .btn-connecter {
   border-radius: 5px;
   font-weight: bold;
 }
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -86,6 +92,7 @@ header ul li .btn-connecter {
   max-width: 100%;
   height: auto;
 }
+
 .why-us {
   margin-left: 70px ;
   padding: 50px 20px;
@@ -104,6 +111,8 @@ header ul li .btn-connecter {
   margin-top: 30px;
 }
 
+
+
 .feature img {
   max-width: 60px;
   margin-bottom: 15px;
@@ -119,17 +128,18 @@ header ul li .btn-connecter {
   font-size: 0.9rem;
   color: #64748B;
 }
+
 footer {
+
   padding: 20px;
   background-color: #FFF3E0;
   font-size: 0.9rem;
-}
 
+}
 footer p{
   margin-left: 40px;
 }
-
-.Contact {
+.Contact{
   margin-top: 40px;
   font-size: 1.5rem;
   margin-bottom: 50px;
