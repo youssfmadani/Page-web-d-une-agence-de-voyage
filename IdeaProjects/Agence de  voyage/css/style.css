@@ -119,3 +119,18 @@ header ul li .btn-connecter {
   font-size: 0.9rem;
   color: #64748B;
 }
+footer {
+  padding: 20px;
+  background-color: #FFF3E0;
+  font-size: 0.9rem;
+}
+
+footer p{
+  margin-left: 40px;
+}
+
+.Contact {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
