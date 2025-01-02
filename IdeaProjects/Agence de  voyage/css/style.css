@@ -10,3 +10,37 @@ body {
   color: #1E293B;
   line-height: 1.6;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #FFF3E0;
+  flex-wrap: wrap;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FF5722;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #475569;
+  font-size: 1rem;
+}
+
+header ul li .btn-connecter {
+  background-color: #FF5722;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
