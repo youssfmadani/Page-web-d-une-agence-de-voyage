@@ -44,3 +44,45 @@ header ul li .btn-connecter {
   border-radius: 5px;
   font-weight: bold;
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+  background-color: #ffffff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1E293B;
+}
+
+.hero h1 span {
+  color: #FF5722;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #FF5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
